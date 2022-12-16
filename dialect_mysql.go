@@ -386,12 +386,14 @@ func (db *mysql) GetColumns(tableName string) ([]string, map[string]*core.Column
 				}
 			}
 		}
-		if colType == "FLOAT UNSIGNED" {
-			colType = "FLOAT"
-		}
-		if colType == "DOUBLE UNSIGNED" {
-			colType = "DOUBLE"
-		}
+		// catcc添加修改
+		colType = strings.Replace(colType, " UNSIGNED", "", -1)
+		//if colType == "FLOAT UNSIGNED" {
+		//	colType = "FLOAT"
+		//}
+		//if colType == "DOUBLE UNSIGNED" {
+		//	colType = "DOUBLE"
+		//}
 		col.Length = len1
 		col.Length2 = len2
 		if _, ok := core.SqlTypes[colType]; ok {
