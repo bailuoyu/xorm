@@ -1,11 +1,11 @@
 # xorm HAS BEEN MOVED TO https://gitea.com/xorm/xorm . THIS REPOSITORY WILL NOT BE UPDATED ANY MORE.
 
-[中文](https://github.com/go-xorm/xorm/blob/master/README_CN.md)
+[中文](https://github.com/bailuoyu/xorm/blob/master/README_CN.md)
 
 Xorm is a simple and powerful ORM for Go.
 
 [![CircleCI](https://circleci.com/gh/go-xorm/xorm.svg?style=shield)](https://circleci.com/gh/go-xorm/xorm) [![codecov](https://codecov.io/gh/go-xorm/xorm/branch/master/graph/badge.svg)](https://codecov.io/gh/go-xorm/xorm)
-[![](https://goreportcard.com/badge/github.com/go-xorm/xorm)](https://goreportcard.com/report/github.com/go-xorm/xorm) 
+[![](https://goreportcard.com/badge/github.com/bailuoyu/xorm)](https://goreportcard.com/report/github.com/bailuoyu/xorm) 
 [![Join the chat at https://img.shields.io/discord/323460943201959939.svg](https://img.shields.io/discord/323460943201959939.svg)](https://discord.gg/HuR2CF3)
 
 ## Features
@@ -56,13 +56,13 @@ Drivers for Go's sql package which currently support database/sql includes:
 
 ## Installation
 
-	go get github.com/go-xorm/xorm
+	go get github.com/bailuoyu/xorm
 
 ## Documents
 
 * [Manual](http://xorm.io/docs)
 
-* [GoDoc](http://godoc.org/github.com/go-xorm/xorm)
+* [GoDoc](http://godoc.org/github.com/bailuoyu/xorm)
 
 ## Quick Start
 
@@ -419,7 +419,7 @@ res, err := engine.Transaction(func(session *xorm.Session) (interface{}, error) 
 
 ## Contributing
 
-If you want to pull request, please see [CONTRIBUTING](https://github.com/go-xorm/xorm/blob/master/CONTRIBUTING.md). And we also provide [Xorm on Google Groups](https://groups.google.com/forum/#!forum/xorm) to discuss.
+If you want to pull request, please see [CONTRIBUTING](https://github.com/bailuoyu/xorm/blob/master/CONTRIBUTING.md). And we also provide [Xorm on Google Groups](https://groups.google.com/forum/#!forum/xorm) to discuss.
 
 ## Credits
 

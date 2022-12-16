@@ -9,7 +9,7 @@ Package xorm is a simple and powerful ORM for Go.
 
 Make sure you have installed Go 1.6+ and then:
 
-	go get github.com/go-xorm/xorm
+	go get github.com/bailuoyu/xorm
 
 # Create Engine
 

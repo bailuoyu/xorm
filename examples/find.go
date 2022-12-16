@@ -5,7 +5,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/go-xorm/xorm"
+	"github.com/bailuoyu/xorm"
 	_ "github.com/mattn/go-sqlite3"
 )
 
